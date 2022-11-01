@@ -1,0 +1,48 @@
+<Description>
+   ***  ABAQUS/ABQcaeG rank 0 received the SIGABRT signal
+</Description>
+
+<Context>
+   UNKNOWN
+</Context>
+
+<Callstack>
+  1)  ucrtbase.dll                abort                                   
+  2)  ucrtbase.dll                terminate                               
+  3)  ucrtbase.dll                is_exception_typeof                     
+  4)  ucrtbase.dll                is_exception_typeof                     
+  5)  ucrtbase.dll                _CxxFrameHandler3                       
+  6)  ntdll.dll                   RtlRestoreContext                       
+  7)  ntdll.dll                   RtlRaiseException                       
+  8)  KERNELBASE.dll              RaiseException                          
+  9)  VCRUNTIME140.dll            CxxThrowException                       
+ 10)  ABQSMAInbVwrIPC.dll         ipc_Socket::Disconnect                  
+ 11)  ABQSMAIngVwrGui.dll         SMAIngGui_finalize                      
+ 12)  ABQSMAIngVwrGui.dll         SMAIngVwrGui_finalize                   
+ 13)  ABQSMAIngVwrGui.dll         DllMain                                 
+ 14)  ABQSMAIngVwrGui.dll         SMAIngVwrGui_initializeC                
+ 15)  ntdll.dll                   RtlActivateActivationContextUnsafeFast  
+ 16)  ntdll.dll                   LdrShutdownProcess                      
+ 17)  ntdll.dll                   RtlExitUserProcess                      
+ 18)  KERNEL32.DLL                ExitProcess                             
+ 19)  ucrtbase.dll                exit                                    
+ 20)  ucrtbase.dll                exit                                    
+</Callstack>
+
+<Memory>
+   <Current>             101 MB </Current>
+   <Resident>            160 MB </Resident>
+   <Physical>          16237 MB </Physical>
+   <Limit>                 0 MB </Limit>
+   <Accessible>        16237 MB </Accessible>
+   <Allocator>            DL    </Allocator>
+</Memory>
+
+<Directories>
+  <current> D:\abaqus_2021_tmp\Abaqus MainWindow GUI\abaqus temp </current> 
+     <temp> C:\Users\14415\AppData\Local\Temp </temp>
+</Directories>
+
+<Installation>
+</Installation>
+

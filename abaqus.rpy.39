@@ -1,0 +1,244 @@
+# -*- coding: mbcs -*-
+#
+# Abaqus/CAE Release 2021 replay file
+# Internal Version: 2020_03_06-22.50.37 167380
+# Run by 14415 on Thu Jul  7 10:10:22 2022
+#
+
+# from driverUtils import executeOnCaeGraphicsStartup
+# executeOnCaeGraphicsStartup()
+#: Executing "onCaeGraphicsStartup()" in the site directory ...
+from abaqus import *
+from abaqusConstants import *
+session.Viewport(name='Viewport: 1', origin=(0.0, 0.0), width=187.8466796875, 
+    height=197.333343505859)
+session.viewports['Viewport: 1'].makeCurrent()
+session.viewports['Viewport: 1'].maximize()
+import plugins.beamCreate.beamCreate
+from caeModules import *
+import os
+os.chdir(r"D:\abaqus_2021_tmp\Abaqus MainWindow GUI\abaqus temp")
+from driverUtils import executeOnCaeStartup
+executeOnCaeStartup()
+import plugins.beamCreate.beamCreate
+import plugins.beamLoad.beamLoad
+import plugins.beamMesh.beamMesh
+import plugins.beamMaxValue.beamMaxValue
+import plugins.husanjiaov22.hujiaokongv22
+import plugins.zhisanjiaokongv2.zhisanjiaokong_fun
+import plugins.yuankongxing.yuankong_fun
+import plugins.K1huzg.huzgk1script
+import plugins.k1yuanzg.yuanzgk1script
+import plugins.k1zhizg.pingzgk1script
+import plugins.beamCreate.beamCreate
+import plugins.beamCreate.beamCreate
+import plugins.beamCreate.beamCreate
+import plugins.beamCreate.beamCreate
+import plugins.beamCreate.beamCreate
+import plugins.beamCreate.beamCreate
+import plugins.beamCreate.beamCreate
+import plugins.beamCreate.beamCreate
+plugins.k1yuanzg.yuanzgk1script.k1_yuanzg(partname_k='yyy', alf_k='35', 
+    R_k='15', Dh_k='100', gunfeng_k='2', yanshen_k='5')
+session.viewports['Viewport: 1'].view.setValues(nearPlane=571.051, 
+    farPlane=765.831, width=714.364, height=315.534, viewOffsetX=-13.9325, 
+    viewOffsetY=-0.686153)
+a = mdb.models['Model-1'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+a = mdb.models['Model-1'].rootAssembly
+a.deleteFeatures(('yzg-1', 'yzg-2', 'yzg-3', ))
+session.viewports['Viewport: 1'].partDisplay.geometryOptions.setValues(
+    referenceRepresentation=ON)
+p1 = mdb.models['Model-1'].parts['yyy']
+session.viewports['Viewport: 1'].setValues(displayedObject=p1)
+del mdb.models['Model-1'].parts['yyy']
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+#* NameError: name 'partname_k' is not defined
+#* File "D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py", line 111, in 
+#* <module>
+#*     p = mdb.models['Model-1'].parts[partname_k]
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=522.723, 
+    farPlane=701.258, width=538.114, height=237.755, viewOffsetX=6.02849, 
+    viewOffsetY=7.35055)
+session.viewports['Viewport: 1'].view.setValues(session.views['Bottom'])
+session.viewports['Viewport: 1'].view.setValues(session.views['Back'])
+session.viewports['Viewport: 1'].view.setValues(session.views['Bottom'])
+session.viewports['Viewport: 1'].view.setValues(session.views['Left'])
+session.viewports['Viewport: 1'].view.setValues(session.views['Right'])
+session.viewports['Viewport: 1'].view.setValues(session.views['Iso'])
+session.viewports['Viewport: 1'].view.setValues(session.views['Front'])
+session.viewports['Viewport: 1'].view.setValues(nearPlane=530.776, 
+    farPlane=693.204, width=453.836, height=200.518, cameraUpVector=(
+    -0.0130195, 0.999915, 0))
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+#* UnboundLocalError: local variable 'posz' referenced before assignment
+#* File "D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py", line 137, in 
+#* <module>
+#*     posz_k = posz()
+#* File "D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py", line 75, in posz
+#*     posz = posz+dz
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+#* UnboundLocalError: local variable 'posz' referenced before assignment
+#* File "D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py", line 137, in 
+#* <module>
+#*     posz_k = posz()
+#* File "D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py", line 75, in posz
+#*     posz = posz+dz
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+#* UnboundLocalError: local variable 'posz' referenced before assignment
+#* File "D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py", line 137, in 
+#* <module>
+#*     posz_k()
+#* File "D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py", line 75, in 
+#* posz_k
+#*     posz = posz+dz
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+#* UnboundLocalError: local variable 'posz' referenced before assignment
+#* File "D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py", line 138, in 
+#* <module>
+#*     posz_k()
+#* File "D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py", line 76, in 
+#* posz_k
+#*     posz = posz+dz
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=568.083, 
+    farPlane=867.399, width=712.478, height=314.794, viewOffsetX=12.714, 
+    viewOffsetY=23.4274)
+session.viewports['Viewport: 1'].view.setValues(session.views['Bottom'])
+session.viewports['Viewport: 1'].view.setValues(session.views['Back'])
+session.viewports['Viewport: 1'].view.setValues(session.views['Top'])
+session.viewports['Viewport: 1'].view.setValues(session.views['Front'])
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+session.viewports['Viewport: 1'].view.setValues(session.views['Back'])
+session.viewports['Viewport: 1'].view.setValues(session.views['Top'])
+session.viewports['Viewport: 1'].view.setValues(nearPlane=573.642, 
+    farPlane=861.84, width=416.27, height=183.92, viewOffsetX=-1.9751, 
+    viewOffsetY=2.11926)
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+session.viewports['Viewport: 1'].view.setValues(session.views['Front'])
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+session.viewports['Viewport: 1'].view.setValues(session.views['Front'])
+a = mdb.models['Model-1'].rootAssembly
+session.viewports['Viewport: 1'].setValues(displayedObject=a)
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=653.814, 
+    farPlane=1050.76, width=616.65, height=272.455, cameraPosition=(-298.712, 
+    58.4077, 848.044), cameraUpVector=(0.093163, 0.994814, -0.0408102))
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=754.626, 
+    farPlane=1165.05, width=763.007, height=337.119, viewOffsetX=-14.01, 
+    viewOffsetY=0.530276)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=721.499, 
+    farPlane=1215.59, width=729.513, height=322.321, cameraPosition=(-471.87, 
+    -12.9045, 945.544), cameraUpVector=(-0.0723487, 0.997048, -0.0256956), 
+    cameraTarget=(-2.283, -0.401606, 108.514), viewOffsetX=-13.395, 
+    viewOffsetY=0.506998)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=719.403, 
+    farPlane=1217.69, width=829.966, height=366.704, viewOffsetX=-31.0701, 
+    viewOffsetY=2.92238)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=773.045, 
+    farPlane=1220.87, width=891.852, height=394.047, cameraPosition=(-958.378, 
+    16.1076, 374.235), cameraUpVector=(0.00878688, 0.999203, -0.0389411), 
+    cameraTarget=(-32.1381, -1.8232, 123.146), viewOffsetX=-33.3869, 
+    viewOffsetY=3.14029)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=779.203, 
+    farPlane=1214.72, width=797.568, height=352.389, viewOffsetX=-33.7106, 
+    viewOffsetY=1.46453)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=720.899, 
+    farPlane=1321.25, width=737.889, height=326.022, cameraPosition=(-445.183, 
+    505.35, -667.655), cameraUpVector=(0.18231, 0.856645, 0.48262), 
+    cameraTarget=(-61.53, 12.9264, 61.4654), viewOffsetX=-31.1882, 
+    viewOffsetY=1.35494)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=733.902, 
+    farPlane=1308.24, width=720.69, height=318.423, viewOffsetX=-45.209, 
+    viewOffsetY=17.9927)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=817.639, 
+    farPlane=1242.07, width=802.92, height=354.754, cameraPosition=(23.7275, 
+    6.91873, -930.671), cameraUpVector=(-0.112445, 0.993343, 0.0250182), 
+    cameraTarget=(-32.0089, -23.5122, 27.0634), viewOffsetX=-50.3672, 
+    viewOffsetY=20.0456)
+session.viewports['Viewport: 1'].view.setValues(session.views['Front'])
+session.viewports['Viewport: 1'].view.setValues(nearPlane=776.009, 
+    farPlane=1143.67, width=544.415, height=240.539, viewOffsetX=-14.396, 
+    viewOffsetY=3.63785)
+execfile('D:/abaqus_2021_tmp/Abaqus MainWindow GUI/duodaoci.py', 
+    __main__.__dict__)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=795.366, 
+    farPlane=1156.24, width=463.631, height=204.846, viewOffsetX=-14.7206, 
+    viewOffsetY=-2.84675)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=755.873, 
+    farPlane=1161.15, width=440.611, height=194.675, cameraPosition=(914.668, 
+    38.3373, 387.17), cameraUpVector=(-0.0826179, 0.986697, 0.14001), 
+    cameraTarget=(-12.9455, 3.35431, 86.3348), viewOffsetX=-13.9896, 
+    viewOffsetY=-2.7054)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=741.792, 
+    farPlane=1175.23, width=666.797, height=294.611, viewOffsetX=-28.412, 
+    viewOffsetY=7.00814)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=711.78, 
+    farPlane=1194.21, width=639.82, height=282.691, cameraPosition=(844.327, 
+    438.639, 43.4055), cameraUpVector=(-0.459609, 0.888104, 0.00560579), 
+    cameraTarget=(-21.1187, -9.54825, 91.6146), viewOffsetX=-27.2625, 
+    viewOffsetY=6.7246)
+p = mdb.models['Model-1'].parts['k1']
+session.viewports['Viewport: 1'].setValues(displayedObject=p)
+plugins.yuankongxing.yuankong_fun.yuankong(partname_k='ykx', alf_k='35', 
+    R_k='10', Dh_k='100', gunfeng_k='2', yanshen_k='5')
+plugins.husanjiaov22.hujiaokongv22.husanjiaov22(partname_k='ppp', Dh_k='100', 
+    d_k='10', yanshen_k='5', bate_k='40', gunfeng_k='2')
+session.viewports['Viewport: 1'].view.setValues(nearPlane=200.555, 
+    farPlane=363.959, width=277.279, height=122.474, viewOffsetX=-4.67471, 
+    viewOffsetY=0.782932)
+session.viewports['Viewport: 1'].view.setValues(nearPlane=203.508, 
+    farPlane=370.562, width=281.361, height=124.277, cameraPosition=(54.0986, 
+    39.1269, 264.692), cameraUpVector=(-0.216776, 0.877522, -0.427741), 
+    cameraTarget=(-46.1985, -5.2084, 4.60695), viewOffsetX=-4.74352, 
+    viewOffsetY=0.794456)
+p = mdb.models['Model-1'].parts['ppp']
+s = p.features['Solid revolve-1'].sketch
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=s)
+s1 = mdb.models['Model-1'].sketches['__edit__']
+g, v, d, c = s1.geometry, s1.vertices, s1.dimensions, s1.constraints
+s1.setPrimaryObject(option=SUPERIMPOSE)
+p.projectReferencesOntoSketch(sketch=s1, 
+    upToFeature=p.features['Solid revolve-1'], filter=COPLANAR_EDGES)
+s1.unsetPrimaryObject()
+del mdb.models['Model-1'].sketches['__edit__']
+plugins.zhisanjiaokongv2.zhisanjiaokong_fun.zhisanjiaokongv2(partname_k='ppp', 
+    Dh_k='100', d_k='10', yanshen_k='7', gunfeng_k='2')
+p1 = mdb.models['Model-1'].parts['k2_ping']
+session.viewports['Viewport: 1'].setValues(displayedObject=p1)
+p = mdb.models['Model-1'].parts['k2_ping']
+s = p.features['Solid revolve-1'].sketch
+mdb.models['Model-1'].ConstrainedSketch(name='__edit__', objectToCopy=s)
+s2 = mdb.models['Model-1'].sketches['__edit__']
+g, v, d, c = s2.geometry, s2.vertices, s2.dimensions, s2.constraints
+s2.setPrimaryObject(option=SUPERIMPOSE)
+p.projectReferencesOntoSketch(sketch=s2, 
+    upToFeature=p.features['Solid revolve-1'], filter=COPLANAR_EDGES)
+s2.unsetPrimaryObject()
+del mdb.models['Model-1'].sketches['__edit__']

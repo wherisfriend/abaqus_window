@@ -1,0 +1,26 @@
+<Description>
+   ***  ABAQUS/ABQcaeG rank 0 received the INTERRUPT signal
+</Description>
+
+<Context>
+   UNKNOWN
+</Context>
+
+
+<Memory>
+   <Current>              96 MB </Current>
+   <Resident>            156 MB </Resident>
+   <Physical>          16237 MB </Physical>
+   <Limit>                 0 MB </Limit>
+   <Accessible>        16237 MB </Accessible>
+   <Allocator>            DL    </Allocator>
+</Memory>
+
+<Directories>
+  <current> D:\abaqus_2021_tmp\Abaqus MainWindow GUI\abaqus temp </current> 
+     <temp> C:\Users\14415\AppData\Local\Temp </temp>
+</Directories>
+
+<Installation>
+</Installation>
+
